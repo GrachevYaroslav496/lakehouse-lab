@@ -1,0 +1,90 @@
+[
+  {
+    "variant": "parquet_none",
+    "bytes": 375159684,
+    "size_gib": 0.349395,
+    "files": 4,
+    "records": 6001215,
+    "codec": "uncompressed",
+    "write_seconds": 167.844,
+    "cold_seconds": 2.696,
+    "warm_seconds": 4.088
+  },
+  {
+    "variant": "parquet_snappy",
+    "bytes": 206800822,
+    "size_gib": 0.192598,
+    "files": 4,
+    "records": 6001215,
+    "codec": "snappy",
+    "write_seconds": 88.188,
+    "cold_seconds": 6.186,
+    "warm_seconds": 10.168
+  },
+  {
+    "variant": "parquet_gzip",
+    "bytes": 149525399,
+    "size_gib": 0.139256,
+    "files": 4,
+    "records": 6001215,
+    "codec": "gzip",
+    "write_seconds": 141.611,
+    "cold_seconds": 2.377,
+    "warm_seconds": 2.642
+  },
+  {
+    "variant": "parquet_zstd",
+    "bytes": 153231705,
+    "size_gib": 0.142708,
+    "files": 4,
+    "records": 6001215,
+    "codec": "zstd",
+    "write_seconds": 63.306,
+    "cold_seconds": 2.489,
+    "warm_seconds": 1.899
+  },
+  {
+    "variant": "orc_none",
+    "bytes": 452619231,
+    "size_gib": 0.421535,
+    "files": 4,
+    "records": 6001215,
+    "codec": "none",
+    "write_seconds": 76.782,
+    "cold_seconds": 3.211,
+    "warm_seconds": 3.363
+  },
+  {
+    "variant": "orc_snappy",
+    "bytes": 221430469,
+    "size_gib": 0.206223,
+    "files": 4,
+    "records": 6001215,
+    "codec": "snappy",
+    "write_seconds": 77.938,
+    "cold_seconds": 2.751,
+    "warm_seconds": 2.708
+  },
+  {
+    "variant": "orc_gzip",
+    "bytes": 155824766,
+    "size_gib": 0.145123,
+    "files": 4,
+    "records": 6001215,
+    "codec": "zlib",
+    "write_seconds": 71.412,
+    "cold_seconds": 3.137,
+    "warm_seconds": 1.824
+  },
+  {
+    "variant": "orc_zstd",
+    "bytes": 161174051,
+    "size_gib": 0.150105,
+    "files": 4,
+    "records": 6001215,
+    "codec": "zstd",
+    "write_seconds": 59.083,
+    "cold_seconds": 2.827,
+    "warm_seconds": 2.201
+  }
+]
